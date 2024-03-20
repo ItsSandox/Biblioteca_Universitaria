@@ -7,7 +7,7 @@ class App(tk.CTk):
         super().__init__()
         self.title('Iniciar sesión')
         #self.iconbitmap('img\ini_sec.ico')
-        self.geometry("540x500")
+        self.geometry("1220x780")
         self.config(bg='#124E78')
         self.resizable(0, 0)
         self.frame = Frame(master = self, bg_color='#001220', fg_color='#001220', width=540, height=500)
